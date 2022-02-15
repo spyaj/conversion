@@ -1,0 +1,98 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #1c1c1c;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+
+}
+
+.container {
+  width: 550px;
+  height: 600px;
+  background: #1f2937;
+}
+.upper-section {
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  width: 550px;
+  height: 250px;
+}
+.lower-section {
+  width: 346px;
+  margin: 0 auto;
+}
+.upper-hed {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin: 0px;
+}
+.lower-section h5{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.lower-section p {
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #D2D2D2;
+max-width: 550px;
+}
+.input-field{
+  display: grid;
+  grid-row: auto;
+  justify-content: center;
+}
+
+.search-btn{
+  background-color: #585dfe;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.input-box{
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  opacity: 30%;
+  border-radius: 5px;
+}
+
+.warning{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #1c1c1c;
+  }
