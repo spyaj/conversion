@@ -20,6 +20,12 @@ volP.textContent = `${inputBox} liters = ${litersToGallons} gallons | ${inputBox
 massP.textContent = `${inputBox} kilos = ${kilosToPound} pounds | ${inputBox} pounds = ${poundsToKilos} kilos`;
 
 
+document.getElementById("input-box").addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        document.getElementById("btn").click();
+    }
+});
+
 btn.addEventListener("click", function () {
   warning.textContent = ``
   inputBox = document.getElementById("input-box").value;
